@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mahabharat Quiz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="mahabharat.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div  style="text-align: center; position: fixed; top: 0%; background-color: lightcoral; right: 0%; left: 0%;">
+            <img src="mahabharat.png" class="rounded" height="30%" width="40%">
+        </div>
+
+        <div id="mqp1" class="question_page">
+            <b>Q.1</b><p> How many son/sons did the <b>Maharaj Shantanu</b> have?</p><br>
+            <button class="btn btn-primary option" onclick="wrong1_answer()">1</button>
+            <button class="btn btn-primary r_option" onclick="right1_answer()">3</button>
+            <button class="btn btn-primary option" onclick="wrong1_answer()">5</button>
+            <button class="btn btn-primary option" onclick="wrong1_answer()">100</button><br><br>
+        </div>
+        
+        <div id="mqp2" class="question_page">
+            <b>Q.2</b><p> How many son/sons did the <b>Queen Gandhari</b> have?</p><br>
+            <button class="btn btn-primary option" onclick="wrong2_answer()">1</button>
+            <button class="btn btn-primary r_option" onclick="wrong2_answer()">0</button>
+            <button class="btn btn-primary option" onclick="wrong2_answer()">50</button>
+            <button class="btn btn-primary option" onclick="right2_answer()">100</button><br><br>
+        </div>
+
+        <div id="mqp3" class="question_page">
+            <b>Q.3</b><p> Who is the mother of <b>bheeshma</b> ?</p><br>
+            <button class="btn btn-primary option" onclick="right3_answer()">Ganga</button>
+            <button class="btn btn-primary r_option" onclick="wrong3_answer()">Satyavati</button>
+            <button class="btn btn-primary option" onclick="wrong3_answer()">Yamuna</button>
+            <button class="btn btn-primary option" onclick="wrong3_answer()">Kunti</button><br><br>
+        </div>
+        
+        <div id="mqp4" class="question_page">
+            <b>Q.4</b><p> Where did the war of <b>mahabharat</b> is done?</p><br>
+            <button class="btn btn-primary option" onclick="right4_answer()">kurukshetra</button>
+            <button class="btn btn-primary r_option" onclick="wrong4_answer()">hastinapur</button>
+            <button class="btn btn-primary option" onclick="wrong4_answer()">indraprasta</button>
+            <button class="btn btn-primary option" onclick="wrong4_answer()">kalinga</button><br><br>
+        </div>
+
+        <div id="mqp5" class="question_page">
+            <b>Q.5</b><p>who wrote the Great Epic <b>mahabharat</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong5_answer()">Ved vyasa</button>
+            <button class="btn btn-primary r_option" onclick="wrong5_answer()">valmiki</button>
+            <button class="btn btn-primary option" onclick="right5_answer()">Lord Ganesha</button>
+            <button class="btn btn-primary option" onclick="wrong5_answer()">Shree Krishna</button><br><br>
+        </div>
+        <div id="aj" class="text-body"><p>Developed by :- Aryan Umesh Jade, India</p></div>
+    </body>
+</html>
