@@ -38,11 +38,11 @@ function wrong4_answer(){
 
 
 function right5_answer(){
-    document.getElementById("mqp5").innerHTML  = correct_option + "Ved vyasa wrote the Great Epic mahabharat";
+    document.getElementById("mqp5").innerHTML  = correct_option + "Lord Ganesha wrote the Great Epic mahabharat";
 }
 
 function wrong5_answer(){
-    document.getElementById("mqp5").innerHTML  = option + "Ved vyasa wrote the Great Epic mahabharat";
+    document.getElementById("mqp5").innerHTML  = option + "Lord Ganesha wrote the Great Epic mahabharat";
 }
 
 function right6_answer(){
