@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vishnu Puran Quiz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="vishnu_puran.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div  style="text-align: center; position: fixed; top: 0%; background-color: lightcoral; right: 0%; left: 0%;">
+            <img src="vishnu_puran.png" class="rounded" height="30%" width="40%">
+        </div>
+
+        <div id="mqp1" class="question_page">
+            <b>Q.1</b><p>What is the name of <b>Lord Vishnu's gada (mace)</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong1_answer()">Nandak</button><br>
+            <button class="btn btn-primary option" onclick="wrong1_answer()">Pinak</button><br>
+            <button class="btn btn-primary r_option" onclick="right1_answer()">Komodaki</button><br>
+            <button class="btn btn-primary option" onclick="wrong1_answer()">Sarang</button><br><br>
+        </div>
+        
+        <div id="mqp2" class="question_page">
+            <b>Q.2</b><p>What is the name of <b>Lord Vishnu's talwar (sword)</b>?</p><br><br
+            <button class="btn btn-primary option" onclick="wrong2_answer()">Tinak</button><br>
+            <button class="btn btn-primary r_option" onclick="right2_answer()">Nandak</button><br>
+            <button class="btn btn-primary option" onclick="wrong2_answer()">Panchajanya</button><br>
+            <button class="btn btn-primary option" onclick="wrong2_answer()">Sarang</button><br><br>
+        </div>
+
+        <div id="mqp3" class="question_page">
+            <b>Q.3</b><p>which avatar (incarnation) of lord Vishnu killed <b>Hiranyakshyapu</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong3_answer()">Vaman</button><br>
+            <button class="btn btn-primary option" onclick="wrong3_answer()">varaha</button><br>
+            <button class="btn btn-primary option" onclick="wrong3_answer()">Kurma</button><br>
+            <button class="btn btn-primary r_option" onclick="right3_answer()">Narsimha</button><br><br>
+        </div>
+        
+        <div id="mqp4" class="question_page">
+            <b>Q.4</b><p>Which Avatar (incarnation) <b>picked up earth on teeth</b>?</p><br>
+            <button class="btn btn-primary r_option" onclick="right4_answer()">Varaha</button><br>
+            <button class="btn btn-primary option" onclick="wrong4_answer()">Kalki</button><br>
+            <button class="btn btn-primary option" onclick="wrong4_answer()">Parshuram</button><br>
+            <button class="btn btn-primary option" onclick="wrong4_answer()">Ram</button><br><br>
+        </div>
+
+        <div id="mqp5" class="question_page">
+            <b>Q.5</b><p>What is the name of <b>Parshuram's Father</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong5_answer()">Maharishi Gautam</button><br>
+            <button class="btn btn-primary option" onclick="wrong5_answer()">Maharishi Bhardwaj</button><br>
+            <button class="btn btn-primary r_option" onclick="right5_answer()">Maharishi Jamdagni</button><br>
+            <button class="btn btn-primary option" onclick="wrong5_answer()">Maharishi Atri</button><br><br>
+        </div>
+
+        <div id="mqp6" class="question_page">
+            <b>Q.6</b><p>In which sagar (Ocean) does <b>Lord vishnu</b> lives?</p><br>
+            <button class="btn btn-primary r_option" onclick="right6_answer()">kshir Sagar</button><br>
+            <button class="btn btn-primary option" onclick="wrong6_answer()">Man Sagar</button><br>
+            <button class="btn btn-primary option" onclick="wrong6_answer()">Ganga Sagar</button><br>
+            <button class="btn btn-primary option" onclick="wrong6_answer()">Sindhu Sagar</button><br><br>
+        </div>
+
+        <div id="mqp7" class="question_page">
+            <b>Q.7</b><p>How many ratna (thing) came out from the <b> Samudra Manthan</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong7_answer()">11</button><br>
+            <button class="btn btn-primary option" onclick="wrong7_answer()">16</button><br>
+            <button class="btn btn-primary option" onclick="wrong7_answer()">15</button><br>
+            <button class="btn btn-primary r_option" onclick="right7_answer()">14</button><br><br>
+        </div>
+
+        <div id="mqp8" class="question_page">
+            <b>Q.8</b><p>which is the 5th avatar (incarnation) <b>lord vishnu</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong8_answer()">Narsimha</button><br>
+            <button class="btn btn-primary r_option" onclick="right8_answer()">Vaman</button><br>
+            <button class="btn btn-primary option" onclick="wrong8_answer()">Parshuram</button><br>
+            <button class="btn btn-primary option" onclick="wrong8_answer()">Varaha</button><br><br>
+        </div>
+
+        <div id="mqp9" class="question_page">
+            <b>Q.9</b><p>Which Avatar (incarnation) killed the <b>Shakhasur</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong9_answer()">Varaha</button><br>
+            <button class="btn btn-primary option" onclick="wrong9_answer()">Vaman</button><br>
+            <button class="btn btn-primary option" onclick="wrong9_answer()">Kurma</button><br>
+            <button class="btn btn-primary r_option" onclick="right9_answer()">Matsya</button><br><br>
+        </div>
+
+        <div id="mqp10" class="question_page">
+            <b>Q.10</b><p>which Avatar (incarnation) of <b>Lord Vishnu</b> is <b>Chiranjeev (Immortal)</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong10_answer()">Ram</button><br>
+            <button class="btn btn-primary r_option" onclick="right10_answer()">Parshuram</button><br>
+            <button class="btn btn-primary option" onclick="wrong10_answer()">Krishna</button><br>
+            <button class="btn btn-primary option" onclick="wrong10_answer()">Narsimha</button><br><br>
+        </div>
+
+        <div id="aj" class="text-body"><p>Developed by :- ©Aryan Umesh Jade, India</p></div>
+    </body>
+</html>

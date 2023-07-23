@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ramayan Quiz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="ramayan.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div  style="text-align: center; position: fixed; top: 0%; background-color: lightcoral; right: 0%; left: 0%;">
+            <img src="ramayan.png" class="rounded" height="30%" width="40%">
+        </div>
+
+        <div id="mqp1" class="question_page">
+            <b>Q.1</b><p> Who is the father of <b>Sita</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong1_answer()">Dasharath</button><br>
+            <button class="btn btn-primary r_option" onclick="right1_answer()">Janak</button><br>
+            <button class="btn btn-primary option" onclick="wrong1_answer()">Vishrava</button><br>
+            <button class="btn btn-primary option" onclick="wrong1_answer()">Shantanu</button><br><br>
+        </div>
+        
+        <div id="mqp2" class="question_page">
+            <b>Q.2</b><p>Where did the <b>sita</b> is born?</p><br>
+            <button class="btn btn-primary r_option" onclick="right2_answer()">Mithila</button><br>
+            <button class="btn btn-primary option" onclick="wrong2_answer()">Ayodhya</button><br>
+            <button class="btn btn-primary option" onclick="wrong2_answer()">Nashik</button><br>
+            <button class="btn btn-primary option" onclick="wrong2_answer()">Kalinga</button><br><br>
+        </div>
+
+        <div id="mqp3" class="question_page">
+            <b>Q.3</b><p> Who is the Father of <b>Ravana</b> ?</p><br>
+            <button class="btn btn-primary option" onclick="Wrong3_answer()">Dasharath</button><br>
+            <button class="btn btn-primary option" onclick="wrong3_answer()">Lord shiva</button><br>
+            <button class="btn btn-primary r_option" onclick="right3_answer()">Vishrava</button><br>
+            <button class="btn btn-primary option" onclick="wrong3_answer()">Vali</button><br><br>
+        </div>
+        
+        <div id="mqp4" class="question_page">
+            <b>Q.4</b><p>How many days did war of <b>Ramayan</b> is done?</p><br>
+            <button class="btn btn-primary option" onclick="wrong4_answer()">38</button><br>
+            <button class="btn btn-primary option" onclick="wrong4_answer()">90</button><br>
+            <button class="btn btn-primary r_option" onclick="right4_answer()">87</button><br>
+            <button class="btn btn-primary option" onclick="wrong4_answer()">79</button><br><br>
+        </div>
+
+        <div id="mqp5" class="question_page">
+            <b>Q.5</b><p>Who is father of <b>angad</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong5_answer()">Sugriva</button><br>
+            <button class="btn btn-primary option" onclick="wrong5_answer()">Hanuman</button><br>
+            <button class="btn btn-primary option" onclick="wrong5_answer()">Jambvant</button><br>
+            <button class="btn btn-primary r_option" onclick="right5_answer()">Vali</button><br><br>
+        </div>
+
+        <div id="mqp6" class="question_page">
+            <b>Q.6</b><p>Who is the Guru of <b>Lord Rama</b>?</p><br>
+            <button class="btn btn-primary r_option" onclick="right6_answer()">Vishwamitra</button><br>
+            <button class="btn btn-primary option" onclick="wrong6_answer()">Agasthi</button><br>
+            <button class="btn btn-primary option" onclick="wrong6_answer()">Vashishtha</button><br>
+            <button class="btn btn-primary option" onclick="wrong6_answer()">Valmiki</button><br><br>
+        </div>
+
+        <div id="mqp7" class="question_page">
+            <b>Q.7</b><p>What is the name of <b>Lord Rama's Dhanushya</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong7_answer()">Sarang</button><br>
+            <button class="btn btn-primary r_option" onclick="right7_answer()">Kodanda</button><br>
+            <button class="btn btn-primary option" onclick="wrong7_answer()">Gandiva</button><br>
+            <button class="btn btn-primary option" onclick="wrong7_answer()">Pinak</button><br><br>
+        </div>
+
+        <div id="mqp8" class="question_page">
+            <b>Q.8</b><p>What is the name of rama's friend <b>'nishad naresh(king)'</b> ?</p><br>
+            <button class="btn btn-primary option" onclick="wrong8_answer()">Sugriva</button><br>
+            <button class="btn btn-primary option" onclick="wrong8_answer()">Hanuman</button><br>
+            <button class="btn btn-primary r_option" onclick="right8_answer()">Kevat</button><br>
+            <button class="btn btn-primary option" onclick="wrong8_answer()">Vali</button><br><br>
+        </div>
+
+        <div id="mqp9" class="question_page">
+            <b>Q.9</b><p>Who killed the <b>Meghnad (Indrajit)</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong9_answer()">Lord Rama</button><br>
+            <button class="btn btn-primary option" onclick="wrong9_answer()">Ravan</button><br>
+            <button class="btn btn-primary option" onclick="wrong9_answer()">Bharat</button><br>
+            <button class="btn btn-primary r_option" onclick="right9_answer()">Lakshman</button><br><br>
+        </div>
+
+        <div id="mqp10" class="question_page">
+            <b>Q.10</b><p>what is the name of <b>Ravan's plane</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong10_answer()">Vijay</button><br>
+            <button class="btn btn-primary option" onclick="wrong10_answer()">vej rath</button><br>
+            <button class="btn btn-primary r_option" onclick="right10_answer()">Pushpak</button><br>
+            <button class="btn btn-primary option" onclick="wrong10_answer()">Veer rath</button><br><br>
+        </div>
+
+        <div id="aj" class="text-body"><p>Developed by :- ©Aryan Umesh Jade, India</p></div>
+    </body>
+</html>

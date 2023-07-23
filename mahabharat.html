@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mahabharat Quiz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="mahabharat.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div  style="text-align: center; position: fixed; top: 0%; background-color: lightcoral; right: 0%; left: 0%;">
+            <img src="mahabharat.png" class="rounded" height="15%" width="25%">
+        </div>
+
+        <div id="mqp1" class="question_page">
+            <b>Q.1</b><p><b>Kuru vansh</b> is also called?</p><br>
+            <button class="btn btn-primary option" onclick="wrong1_answer()">Surya vansh</button><br>
+            <button class="btn btn-primary option" onclick="wrong1_answer()">Yadu vansh</button><br>
+            <button class="btn btn-primary r_option" onclick="right1_answer()">Chandra vansh</button><br>
+            <button class="btn btn-primary option" onclick="wrong1_answer()">Maurya vansh</button><br><br>
+        </div>
+        
+        <div id="mqp2" class="question_page">
+            <b>Q.2</b><p>How many aukshani <b>sena (army)</b> did <b>Pandav</b> had in mahabharat war?</p><br>
+            <button class="btn btn-primary option" onclick="wrong2_answer()">11</button><br>
+            <button class="btn btn-primary option" onclick="wrong2_answer()">8</button><br>
+            <button class="btn btn-primary option" onclick="wrong2_answer()">6</button><br>
+            <button class="btn btn-primary r_option" onclick="right2_answer()">7</button><br><br>
+        </div>
+
+        <div id="mqp3" class="question_page">
+            <b>Q.3</b><p>How many aukshani <b>sena (army)</b> did <b>Kaurav</b> had in mahabharat war?</p><br>
+            <button class="btn btn-primary r_option" onclick="right3_answer()">11</button><br>
+            <button class="btn btn-primary option" onclick="wrong3_answer()">8</button><br>
+            <button class="btn btn-primary option" onclick="wrong3_answer()">6</button><br>
+            <button class="btn btn-primary option" onclick="wrong3_answer()">7</button><br><br>
+        </div>
+        
+        <div id="mqp4" class="question_page">
+            <b>Q.4</b><p>What is the name of <b>Yudhisthira</b> during Agyatvas?</p><br>
+            <button class="btn btn-primary option" onclick="wrong4_answer()">Vallabh</button><br>
+            <button class="btn btn-primary r_option" onclick="right4_answer()">Kanka</button><br>
+            <button class="btn btn-primary option" onclick="wrong4_answer()">Granthik</button><br>
+            <button class="btn btn-primary option" onclick="wrong4_answer()">Tantipal</button><br><br>
+        </div>
+
+        <div id="mqp5" class="question_page">
+            <b>Q.5</b><p>What is the name of <b>Bheema shankha(conch shell)?</b></p><br>
+            <button class="btn btn-primary option" onclick="wrong5_answer()">Panchjanya</button><br>
+            <button class="btn btn-primary option" onclick="wrong5_answer()">Devdatta</button><br>
+            <button class="btn btn-primary option" onclick="wrong5_answer()">Anantvijya</button><br>
+            <button class="btn btn-primary r_option" onclick="right5_answer()">Paundra</button><br><br>
+        </div>
+
+        <div id="mqp6" class="question_page">
+            <b>Q.6</b><p>Who wrote <b>Mahabharat</b>?</p><br>
+            <button class="btn btn-primary r_option" onclick="right6_answer()">Lord Ganesh</button><br>
+            <button class="btn btn-primary option" onclick="wrong6_answer()">Valmiki</button><br>
+            <button class="btn btn-primary option" onclick="wrong6_answer()">Ved vyasa</button><br>
+            <button class="btn btn-primary option" onclick="wrong6_answer()">Krishna</button><br><br>
+        </div>
+
+        <div id="mqp7" class="question_page">
+            <b>Q.7</b><p>how many days did <b>War of Mahabharat</b> done ?</p><br>
+            <button class="btn btn-primary option" onclick="wrong7_answer()">13</button><br>
+            <button class="btn btn-primary option" onclick="wrong7_answer()">14</button><br>
+            <button class="btn btn-primary option" onclick="wrong7_answer()">10</button><br>
+            <button class="btn btn-primary r_option" onclick="right7_answer()">18</button><br><br>
+        </div>
+
+        <div id="mqp8" class="question_page">
+            <b>Q.8</b><p>What is the real name of <b>bheeshma</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong8_answer()">Shantanu</button><br>
+            <button class="btn btn-primary r_option" onclick="right8_answer()">Devvrata</button><br>
+            <button class="btn btn-primary option" onclick="wrong8_answer()">Chitrangad</button><br>
+            <button class="btn btn-primary option" onclick="wrong8_answer()">Pandu</button><br><br>
+        </div>
+
+        <div id="mqp9" class="question_page">
+            <b>Q.9</b><p>What is the name of <b>karna's dhanushya (bow)</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong9_answer()">Gandiva</button><br>
+            <button class="btn btn-primary option" onclick="wrong9_answer()">Saranga</button><br>
+            <button class="btn btn-primary r_option" onclick="right9_answer()">Vijay</button><br>
+            <button class="btn btn-primary option" onclick="wrong9_answer()">Pinak</button><br><br>
+        </div>
+
+        <div id="mqp10" class="question_page">
+            <b>Q.10</b><p>Who killed <b>Shakuni</b>?</p><br>
+            <button class="btn btn-primary r_option" onclick="right10_answer()">Sahadev</button><br>
+            <button class="btn btn-primary option" onclick="wrong10_answer()">Arjun</button><br>
+            <button class="btn btn-primary option" onclick="wrong10_answer()">Bheem</button><br>
+            <button class="btn btn-primary option" onclick="wrong10_answer()">Yudhisthira</button><br><br>
+        </div>
+
+        <div id="aj" class="text-body"><p>Developed by :- ©Aryan Umesh Jade, India</p></div>
+    </body>
+</html>

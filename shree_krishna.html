@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>shree krishna Quiz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="shree_krishna.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div  style="text-align: center; position: fixed; top: 0%; background-color: lightcoral; right: 0%; left: 0%;">
+            <img src="shree_krishna.png" class="rounded" height="15%" width="25%">
+        </div>
+
+        <div id="mqp1" class="question_page">
+            <b>Q.1</b><p> What is the name of <b>Krishna's Dhanushya (bow)</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong1_answer()">Gandiva</button><br>
+            <button class="btn btn-primary option" onclick="wrong1_answer()">Pinak</button><br>
+            <button class="btn btn-primary r_option" onclick="right1_answer()">Saranga</button><br>
+            <button class="btn btn-primary option" onclick="wrong1_answer()">kodanda</button><br><br>
+        </div>
+        
+        <div id="mqp2" class="question_page">
+            <b>Q.2</b><p>Which of the following person is <b>not</b> killed by <b>Krishna</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong2_answer()">Kans</button><br>
+            <button class="btn btn-primary r_option" onclick="right2_answer()">Kalyavan</button><br>
+            <button class="btn btn-primary option" onclick="wrong2_answer()">Chanura</button><br>
+            <button class="btn btn-primary option" onclick="wrong2_answer()">Narkasur</button><br><br>
+        </div>
+
+        <div id="mqp3" class="question_page">
+            <b>Q.3</b><p>What is the name of <b>Krishna's son</b> ?</p><br>
+            <button class="btn btn-primary option" onclick="Wrong3_answer()">Ghatotkach</button><br>
+            <button class="btn btn-primary option" onclick="wrong3_answer()">Abhimanyu</button><br>
+            <button class="btn btn-primary option" onclick="wrong3_answer()">Dristadyuman</button><br>
+            <button class="btn btn-primary r_option" onclick="right3_answer()">Pradyuman</button><br><br>
+        </div>
+        
+        <div id="mqp4" class="question_page">
+            <b>Q.4</b><p>Where did the <b>Shree Krishna</b> was born?</p><br>
+            <button class="btn btn-primary option" onclick="wrong4_answer()">Gokul</button><br>
+            <button class="btn btn-primary r_option" onclick="right4_answer()">Mathura</button><br>
+            <button class="btn btn-primary option" onclick="wrong4_answer()">Vrindavan</button><br>
+            <button class="btn btn-primary option" onclick="wrong4_answer()">Dwarka</button><br><br>
+        </div>
+
+        <div id="mqp5" class="question_page">
+            <b>Q.5</b><p>What is the name of <b>Shree Krishna's sister</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong5_answer()">Rukhmini</button><br>
+            <button class="btn btn-primary option" onclick="wrong5_answer()">Satyabhama</button><br>
+            <button class="btn btn-primary option" onclick="wrong5_answer()">Chitrangada</button><br>
+            <button class="btn btn-primary r_option" onclick="right5_answer()">Subhadra</button><br><br>
+        </div>
+
+        <div id="mqp6" class="question_page">
+            <b>Q.6</b><p>Where did <b>Shanti dut krishna</b> stayed in hastinapur?</p><br>
+            <button class="btn btn-primary option" onclick="wrong6_answer()">Duryodhan's palace</button><br>
+            <button class="btn btn-primary option" onclick="wrong6_answer()">Bheeshma's palace</button><br>
+            <button class="btn btn-primary r_option" onclick="right6_answer()">Vidura's house</button><br>
+            <button class="btn btn-primary option" onclick="wrong6_answer()">Kripacharya's house</button><br><br>
+        </div>
+
+        <div id="mqp7" class="question_page">
+            <b>Q.7</b><p>who is guru of <b>Krishna</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong7_answer()">Ved vyasa</button><br>
+            <button class="btn btn-primary r_option" onclick="right7_answer()">Sandipani</button><br>
+            <button class="btn btn-primary option" onclick="wrong7_answer()">Dronacharya</button><br>
+            <button class="btn btn-primary option" onclick="wrong7_answer()">Vishwamitra</button><br><br>
+        </div>
+
+        <div id="mqp8" class="question_page">
+            <b>Q.8</b><p>Which of the following is <b>not the name of krishna</b></p><br>
+            <button class="btn btn-primary r_option" onclick="right8_answer()">Dhanajay</button><br>
+            <button class="btn btn-primary option" onclick="wrong8_answer()">Madhav</button><br>
+            <button class="btn btn-primary option" onclick="wrong8_answer()">Keshav</button><br>
+            <button class="btn btn-primary option" onclick="wrong8_answer()">Kanha</button><br><br>
+        </div>
+
+        <div id="mqp9" class="question_page">
+            <b>Q.9</b><p>from which weapon Krishna killed <b>shishupal</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong9_answer()">Sword (Talwar)</button><br>
+            <button class="btn btn-primary option" onclick="wrong9_answer()">Spear (Bhala)</button><br>
+            <button class="btn btn-primary option" onclick="wrong9_answer()">Arrow (Tir)</button><br>
+            <button class="btn btn-primary r_option" onclick="right9_answer()">Chakra</button><br><br>
+        </div>
+
+        <div id="mqp10" class="question_page">
+            <b>Q.10</b><p>What is the name of <b>Krishna's chakra</b>?</p><br>
+            <button class="btn btn-primary option" onclick="wrong10_answer()">Komodaki</button><br>
+            <button class="btn btn-primary r_option" onclick="right10_answer()">Sudarshan</button><br>
+            <button class="btn btn-primary option" onclick="wrong10_answer()">Nandak</button><br>
+            <button class="btn btn-primary option" onclick="wrong10_answer()">Pinak</button><br><br>
+        </div>
+
+        <div id="aj" class="text-body"><p>Developed by :- ©Aryan Umesh Jade, India</p></div>
+    </body>
+</html>
